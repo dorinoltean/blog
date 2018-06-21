@@ -151,11 +151,11 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 0 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -212,7 +212,8 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 10px; 
+  margin-bottom: 10px; 
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -261,6 +262,10 @@ nav {
     font-style: italic;
   }
 
+  .notes > .note
+  {
+    margin:10px 0 10px 0
+  }
   .comments {
     margin-top: 10px;
   }
