@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Din trafic
-tags: india,nonfiction
+tags: 
+ - india
+ - trăite
 notes:
 ---
 

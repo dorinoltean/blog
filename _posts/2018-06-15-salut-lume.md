@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Pregătiri
-tags: india,nonfiction
+tags: 
+ - india
+ - trăite
 notes:
  - {
  hashtag: hazdenecaz,
