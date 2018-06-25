@@ -6,13 +6,10 @@ layout: default
   <h1>{{ page.title }}</h1> 
 
   <div class="tags">
-      {% for tag in page.tags %}
-        <span>#{{tag | strip}}</span>
-      {% endfor %}
-
-    </div>
-
-    
+    {% for tag in page.tags %}
+      <span>#{{tag | strip}}</span>
+    {% endfor %}
+  </div>
 
   <div class="date">
     {{ page.date | date: "%B %e, %Y" }}
@@ -28,7 +25,13 @@ layout: default
       
       {% for note in page.notes %}
       <div class="note">
-        {{note.content}}
+        {% if note.url %}
+          <a href="{{note.url}}">
+            {{note.content}}
+          </a>
+        {% else %}
+          {{note.content}}
+        {% endif %}
       </div>
       {% endfor %}
     </div>
