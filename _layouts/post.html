@@ -36,6 +36,20 @@ layout: default
       {% endfor %}
     </div>
   {% endif %}
-  
+
+  <div class="navigation">
+      {% if page.previous.url %}
+        <a href="{{site.baseurl}}{{page.previous.url}}"> anteriorul </a>
+      {% else %}
+        <a href="#" class="not-active"> anteriorul </a>
+      {% endif %}
+      |
+      {% if page.next.url %}
+        <a href="{{site.baseurl}}{{page.next.url}}"> următorul </a>
+      {% else %}
+        <a href="#" class="not-active"> următorul </a>
+      {% endif %}
+  </div>
+
   {% include disqus.html %}
 </article>
