@@ -42,6 +42,7 @@ plugins:
 #   - vendor/ruby/
 
 google_analytics: true
+facebook_analytics: true
 disqus: blog-dorin
 footer-links:
   rss: true
