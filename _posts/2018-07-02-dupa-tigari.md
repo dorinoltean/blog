@@ -3,6 +3,7 @@ layout: post
 title: După țigări
 tags: 
  - văzute
+ - india
 notes:
  - hashtag: inspirație
    content: 'All humans beings have an innate desire to overcome suffering. Dalai Lama'
