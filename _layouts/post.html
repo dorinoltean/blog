@@ -21,10 +21,11 @@ layout: default
 
   {% if page.notes %}
     <div class="notes">
-      <h3>De la alții</h3>
+      <h3>Note</h3>
       
       {% for note in page.notes %}
       <div class="note">
+        <div class="tags">#{{note.hashtag}} </div>
         {% if note.url %}
           <a href="{{note.url}}">
             {{note.content}}
