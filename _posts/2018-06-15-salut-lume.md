@@ -11,7 +11,7 @@ notes:
  }
  - {
  hashtag: premiulnobelpentrupaceinterioară,
- content: Căpitanul “Dacă tot ne-o intarziat oamenii ăștia un pic, pe partea dreaptă puteți vedea Bucureștiul.”
+ content: "Căpitanul “Dacă tot ne-o intarziat oamenii ăștia un pic, pe partea dreaptă puteți vedea Bucureștiul.”"
   }
  - {
  hashtag: activateyourmarketingmind,
